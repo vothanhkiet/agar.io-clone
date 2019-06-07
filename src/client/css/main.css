@@ -5,6 +5,7 @@
 
 html, body {
     background-color: #222;
+    overflow: hidden;
 }
 
 html, body, canvas {
@@ -28,6 +29,7 @@ div {
     width: 100px;
     height: 100px;
     padding: 5px;
+    border: none;
 }
 
 #feed {
@@ -37,6 +39,7 @@ div {
     width: 100px;
     height: 100px;
     padding: 5px;
+    border: none;
 }
 
 #status {
@@ -266,4 +269,15 @@ display: none;
 #chatbox {
 display: none;
         }
+}
+
+input [type="image"]:focus{
+ border:none;
+ outline: 1px solid transparent;
+ border-style: none;
+}
+
+*:focus {
+ outline: 1px solid transparent;
+ border-style: none;
 }
